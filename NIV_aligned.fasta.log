@@ -1,0 +1,394 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    fermat (AVX2, FMA3, 1009 GB RAM)
+Command: ../../iqtree -s NIV_aligned.fasta -m HKY+F -bb 1000 -alrt 1000
+Seed:    216610 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Oct 23 15:15:09 2024
+Kernel:  AVX+FMA - 1 threads (128 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 128 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file NIV_aligned.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 82 sequences with 18252 columns, 987 distinct patterns
+2403 parsimony-informative, 600 singleton sites, 15249 constant sites
+WARNING: Some sequence names are changed as follows:
+SEQX008|NiV|CountryX|human|2024-03-02 -> SEQX008_NiV_CountryX_human_2024-03-02
+SEQX016|NiV|CountryX|human|2024-03-03 -> SEQX016_NiV_CountryX_human_2024-03-03
+SEQX009|NiV|CountryX|human|2024-02-29 -> SEQX009_NiV_CountryX_human_2024-02-29
+SEQX019|NiV|CountryX|human|2024-04-03 -> SEQX019_NiV_CountryX_human_2024-04-03
+SEQX018|NiV|CountryX|human|2024-03-20 -> SEQX018_NiV_CountryX_human_2024-03-20
+SEQX006|NiV|CountryX|human|2024-02-09 -> SEQX006_NiV_CountryX_human_2024-02-09
+SEQX004|NiV|CountryX|human|2024-02-02 -> SEQX004_NiV_CountryX_human_2024-02-02
+SEQX014|NiV|CountryX|human|2024-03-02 -> SEQX014_NiV_CountryX_human_2024-03-02
+SEQX005|NiV|CountryX|human|2024-02-22 -> SEQX005_NiV_CountryX_human_2024-02-22
+SEQX020|NiV|CountryX|human|2024-04-13 -> SEQX020_NiV_CountryX_human_2024-04-13
+SEQX002|NiV|CountryX|human|2024-01-10 -> SEQX002_NiV_CountryX_human_2024-01-10
+SEQX003|NiV|CountryX|human|2024-01-29 -> SEQX003_NiV_CountryX_human_2024-01-29
+SEQX010|NiV|CountryX|human|2024-02-23 -> SEQX010_NiV_CountryX_human_2024-02-23
+SEQX001|NiV|CountryX|human|2023-12-28 -> SEQX001_NiV_CountryX_human_2023-12-28
+SEQX012|NiV|CountryX|human|2024-03-11 -> SEQX012_NiV_CountryX_human_2024-03-11
+SEQX015|NiV|CountryX|human|2024-03-04 -> SEQX015_NiV_CountryX_human_2024-03-04
+SEQX011|NiV|CountryX|human|2024-02-24 -> SEQX011_NiV_CountryX_human_2024-02-24
+SEQX017|NiV|CountryX|human|2024-03-22 -> SEQX017_NiV_CountryX_human_2024-03-22
+SEQX013|NiV|CountryX|human|2024-03-01 -> SEQX013_NiV_CountryX_human_2024-03-01
+SEQX007|NiV|CountryX|human|2024-02-06 -> SEQX007_NiV_CountryX_human_2024-02-06
+MK673558|NiV|Malaysia|pig|1999-03-25 -> MK673558_NiV_Malaysia_pig_1999-03-25
+MK673559|NiV|Malaysia|pig|1999-03-25 -> MK673559_NiV_Malaysia_pig_1999-03-25
+MK673560|NiV|Malaysia|pig|1999-03-26 -> MK673560_NiV_Malaysia_pig_1999-03-26
+MK673561|NiV|Malaysia|pig|1999 -> MK673561_NiV_Malaysia_pig_1999
+MK673563|NiV|Malaysia|dog|1999-04-03 -> MK673563_NiV_Malaysia_dog_1999-04-03
+MK673562|NiV|Malaysia|human|1999 -> MK673562_NiV_Malaysia_human_1999
+AJ564621|NiV|Malaysia|pig|1999 -> AJ564621_NiV_Malaysia_pig_1999
+AJ564623|NiV|Malaysia|pig|1999 -> AJ564623_NiV_Malaysia_pig_1999
+AY029767|NiV|Malaysia|human|1999 -> AY029767_NiV_Malaysia_human_1999
+AJ564622|NiV|Malaysia|pig|1999 -> AJ564622_NiV_Malaysia_pig_1999
+AY029768|NiV|Malaysia|human|1999 -> AY029768_NiV_Malaysia_human_1999
+AJ627196|NiV|Malaysia|pig|1999 -> AJ627196_NiV_Malaysia_pig_1999
+MK801755|NiV|Cambodia|flying_fox|2003 -> MK801755_NiV_Cambodia_flying_fox_2003
+OR820506|NiV|India|human|2023-08-29 -> OR820506_NiV_India_human_2023-08-29
+OR820508|NiV|India|human|2023-09-11 -> OR820508_NiV_India_human_2023-09-11
+MN549409|NiV|India|flying_fox|2019-06-10 -> MN549409_NiV_India_flying_fox_2019-06-10
+MH523640|NiV|India|human|2018-05-17 -> MH523640_NiV_India_human_2018-05-17
+MH523642|NiV|India|human|2018-05-17 -> MH523642_NiV_India_human_2018-05-17
+MH396625|NiV|India|human|2018-05-17 -> MH396625_NiV_India_human_2018-05-17
+MH523641|NiV|India|human|2018-05-21 -> MH523641_NiV_India_human_2018-05-21
+MW535746|NiV|Thailand|flying_fox|2017-05-21 -> MW535746_NiV_Thailand_flying_fox_2017-05-21
+MK673564|NiV|Bangladesh|human|2004-01-22 -> MK673564_NiV_Bangladesh_human_2004-01-22
+AY988601|NiV|Bangladesh|human|2004 -> AY988601_NiV_Bangladesh_human_2004
+MK673566|NiV|Bangladesh|human|2004-03-29 -> MK673566_NiV_Bangladesh_human_2004-03-29
+MK673567|NiV|Bangladesh|human|2004-04-19 -> MK673567_NiV_Bangladesh_human_2004-04-19
+MK673568|NiV|Bangladesh|human|2008-02-28 -> MK673568_NiV_Bangladesh_human_2008-02-28
+MK673571|NiV|Bangladesh|human|2011-02-01 -> MK673571_NiV_Bangladesh_human_2011-02-01
+MK673573|NiV|Bangladesh|human|2011-02-02 -> MK673573_NiV_Bangladesh_human_2011-02-02
+MK673574|NiV|Bangladesh|human|2011-02-03 -> MK673574_NiV_Bangladesh_human_2011-02-03
+MK673577|NiV|Bangladesh|human|2011-02-02 -> MK673577_NiV_Bangladesh_human_2011-02-02
+MK673589|NiV|Bangladesh|human|2014-02-06 -> MK673589_NiV_Bangladesh_human_2014-02-06
+MK673590|NiV|Bangladesh|human|2014-02-07 -> MK673590_NiV_Bangladesh_human_2014-02-07
+MK575060|NiV|Bangladesh|flying_fox|2013-04-11 -> MK575060_NiV_Bangladesh_flying_fox_2013-04-11
+MK575061|NiV|Bangladesh|flying_fox|2013-04-11 -> MK575061_NiV_Bangladesh_flying_fox_2013-04-11
+MK575066|NiV|Bangladesh|flying_fox|2013-04-11 -> MK575066_NiV_Bangladesh_flying_fox_2013-04-11
+MK575064|NiV|Bangladesh|flying_fox|2013-04-11 -> MK575064_NiV_Bangladesh_flying_fox_2013-04-11
+MK575068|NiV|Bangladesh|flying_fox|2013-04-11 -> MK575068_NiV_Bangladesh_flying_fox_2013-04-11
+MK575067|NiV|Bangladesh|flying_fox|2013-04-11 -> MK575067_NiV_Bangladesh_flying_fox_2013-04-11
+MK575069|NiV|Bangladesh|flying_fox|2013-04-11 -> MK575069_NiV_Bangladesh_flying_fox_2013-04-11
+MK575062|NiV|Bangladesh|flying_fox|2013-04-11 -> MK575062_NiV_Bangladesh_flying_fox_2013-04-11
+MK575065|NiV|Bangladesh|flying_fox|2013-04-11 -> MK575065_NiV_Bangladesh_flying_fox_2013-04-11
+MK575070|NiV|Bangladesh|flying_fox|2013-01-06 -> MK575070_NiV_Bangladesh_flying_fox_2013-01-06
+MK575063|NiV|Bangladesh|flying_fox|2013-04-11 -> MK575063_NiV_Bangladesh_flying_fox_2013-04-11
+MK673584|NiV|Bangladesh|human|2015-01-05 -> MK673584_NiV_Bangladesh_human_2015-01-05
+MK673587|NiV|Bangladesh|human|2015-01-19 -> MK673587_NiV_Bangladesh_human_2015-01-19
+MK673565|NiV|Bangladesh|human|2004-02-09 -> MK673565_NiV_Bangladesh_human_2004-02-09
+MK673570|NiV|Bangladesh|human|2011-02-11 -> MK673570_NiV_Bangladesh_human_2011-02-11
+MK673575|NiV|Bangladesh|human|2011-02-10 -> MK673575_NiV_Bangladesh_human_2011-02-10
+MK673585|NiV|Bangladesh|human|2015-03-18 -> MK673585_NiV_Bangladesh_human_2015-03-18
+MK673586|NiV|Bangladesh|human|2015-03-21 -> MK673586_NiV_Bangladesh_human_2015-03-21
+MK673592|NiV|Bangladesh|human|2014-01-20 -> MK673592_NiV_Bangladesh_human_2014-01-20
+MK673578|NiV|Bangladesh|human|2011-03-08 -> MK673578_NiV_Bangladesh_human_2011-03-08
+JN808857|NiV|Bangladesh|human|2008 -> JN808857_NiV_Bangladesh_human_2008
+JN808863|NiV|Bangladesh|human|2008 -> JN808863_NiV_Bangladesh_human_2008
+MK673582|NiV|Bangladesh|human|2012-04-05 -> MK673582_NiV_Bangladesh_human_2012-04-05
+MK673583|NiV|Bangladesh|human|2013-01-22 -> MK673583_NiV_Bangladesh_human_2013-01-22
+MK673576|NiV|Bangladesh|human|2011-01-01 -> MK673576_NiV_Bangladesh_human_2011-01-01
+FJ513078|NiV|India|human|2007 -> FJ513078_NiV_India_human_2007
+MK673591|NiV|Bangladesh|human|2014-02-04 -> MK673591_NiV_Bangladesh_human_2014-02-04
+MK673579|NiV|Bangladesh|human|2012-01-20 -> MK673579_NiV_Bangladesh_human_2012-01-20
+MK673580|NiV|Bangladesh|human|2012-01-20 -> MK673580_NiV_Bangladesh_human_2012-01-20
+MK673581|NiV|Bangladesh|human|2012-01-21 -> MK673581_NiV_Bangladesh_human_2012-01-21
+
+                                               Gap/Ambiguity  Composition  p-value
+   1  SEQX008_NiV_CountryX_human_2024-03-02            0.03%    passed     93.99%
+   2  SEQX016_NiV_CountryX_human_2024-03-03            0.03%    passed     93.08%
+   3  SEQX009_NiV_CountryX_human_2024-02-29            0.03%    passed     94.65%
+   4  SEQX019_NiV_CountryX_human_2024-04-03            0.03%    passed     95.02%
+   5  SEQX018_NiV_CountryX_human_2024-03-20            0.03%    passed     95.39%
+   6  SEQX006_NiV_CountryX_human_2024-02-09            0.03%    passed     95.32%
+   7  SEQX004_NiV_CountryX_human_2024-02-02            0.03%    passed     94.54%
+   8  SEQX014_NiV_CountryX_human_2024-03-02            0.03%    passed     93.37%
+   9  SEQX005_NiV_CountryX_human_2024-02-22            0.03%    passed     93.32%
+  10  SEQX020_NiV_CountryX_human_2024-04-13            0.03%    passed     94.54%
+  11  SEQX002_NiV_CountryX_human_2024-01-10            0.03%    passed     93.63%
+  12  SEQX003_NiV_CountryX_human_2024-01-29            0.03%    passed     93.62%
+  13  SEQX010_NiV_CountryX_human_2024-02-23            0.03%    passed     93.08%
+  14  SEQX001_NiV_CountryX_human_2023-12-28            0.03%    passed     92.51%
+  15  SEQX012_NiV_CountryX_human_2024-03-11            0.03%    passed     91.88%
+  16  SEQX015_NiV_CountryX_human_2024-03-04            0.03%    passed     92.45%
+  17  SEQX011_NiV_CountryX_human_2024-02-24            0.03%    passed     92.45%
+  18  SEQX017_NiV_CountryX_human_2024-03-22            0.03%    passed     92.45%
+  19  SEQX013_NiV_CountryX_human_2024-03-01            0.03%    passed     92.45%
+  20  SEQX007_NiV_CountryX_human_2024-02-06            0.03%    passed     95.94%
+  21  MK673558_NiV_Malaysia_pig_1999-03-25             0.10%    passed     84.25%
+  22  MK673559_NiV_Malaysia_pig_1999-03-25             0.12%    passed     83.95%
+  23  MK673560_NiV_Malaysia_pig_1999-03-26             0.12%    passed     84.08%
+  24  MK673561_NiV_Malaysia_pig_1999                   0.12%    passed     84.08%
+  25  MK673563_NiV_Malaysia_dog_1999-04-03             0.12%    passed     84.74%
+  26  MK673562_NiV_Malaysia_human_1999                 0.12%    passed     89.96%
+  27  AJ564621_NiV_Malaysia_pig_1999                   0.03%    passed     82.46%
+  28  AJ564623_NiV_Malaysia_pig_1999                   0.03%    passed     82.46%
+  29  AY029767_NiV_Malaysia_human_1999                 0.03%    passed     83.10%
+  30  AJ564622_NiV_Malaysia_pig_1999                   0.03%    passed     83.79%
+  31  AY029768_NiV_Malaysia_human_1999                 0.03%    passed     83.16%
+  32  AJ627196_NiV_Malaysia_pig_1999                   0.03%    passed     85.36%
+  33  MK801755_NiV_Cambodia_flying_fox_2003            0.03%    passed     97.17%
+  34  OR820506_NiV_India_human_2023-08-29              0.23%    passed     98.15%
+  35  OR820508_NiV_India_human_2023-09-11              0.98%    passed     97.92%
+  36  MN549409_NiV_India_flying_fox_2019-06-10         0.44%    passed     97.10%
+  37  MH523640_NiV_India_human_2018-05-17              0.66%    passed     99.40%
+  38  MH523642_NiV_India_human_2018-05-17              0.05%    passed     98.97%
+  39  MH396625_NiV_India_human_2018-05-17              0.23%    passed     99.32%
+  40  MH523641_NiV_India_human_2018-05-21              1.23%    passed     96.72%
+  41  MW535746_NiV_Thailand_flying_fox_2017-05-21      0.13%    passed     99.88%
+  42  MK673564_NiV_Bangladesh_human_2004-01-22         0.07%    passed     99.89%
+  43  AY988601_NiV_Bangladesh_human_2004               0.00%    passed     99.92%
+  44  MK673566_NiV_Bangladesh_human_2004-03-29         0.07%    passed     99.97%
+  45  MK673567_NiV_Bangladesh_human_2004-04-19         0.04%    passed     99.86%
+  46  MK673568_NiV_Bangladesh_human_2008-02-28         0.08%    passed     99.77%
+  47  MK673571_NiV_Bangladesh_human_2011-02-01         0.07%    passed     99.74%
+  48  MK673573_NiV_Bangladesh_human_2011-02-02         0.09%    passed     99.69%
+  49  MK673574_NiV_Bangladesh_human_2011-02-03         0.26%    passed     99.87%
+  50  MK673577_NiV_Bangladesh_human_2011-02-02         0.30%    passed     99.92%
+  51  MK673589_NiV_Bangladesh_human_2014-02-06         0.23%    passed     99.85%
+  52  MK673590_NiV_Bangladesh_human_2014-02-07         0.34%    passed     99.92%
+  53  MK575060_NiV_Bangladesh_flying_fox_2013-04-11    0.10%    passed     99.43%
+  54  MK575061_NiV_Bangladesh_flying_fox_2013-04-11    0.10%    passed     99.99%
+  55  MK575066_NiV_Bangladesh_flying_fox_2013-04-11    0.10%    passed     99.99%
+  56  MK575064_NiV_Bangladesh_flying_fox_2013-04-11    0.10%    passed    100.00%
+  57  MK575068_NiV_Bangladesh_flying_fox_2013-04-11    0.10%    passed     99.99%
+  58  MK575067_NiV_Bangladesh_flying_fox_2013-04-11    0.10%    passed     99.97%
+  59  MK575069_NiV_Bangladesh_flying_fox_2013-04-11    0.10%    passed     99.99%
+  60  MK575062_NiV_Bangladesh_flying_fox_2013-04-11    0.10%    passed     99.97%
+  61  MK575065_NiV_Bangladesh_flying_fox_2013-04-11    0.10%    passed     99.99%
+  62  MK575070_NiV_Bangladesh_flying_fox_2013-01-06    0.10%    passed     99.98%
+  63  MK575063_NiV_Bangladesh_flying_fox_2013-04-11    2.81%    passed     73.98%
+  64  MK673584_NiV_Bangladesh_human_2015-01-05         0.13%    passed     99.82%
+  65  MK673587_NiV_Bangladesh_human_2015-01-19         0.53%    passed     99.29%
+  66  MK673565_NiV_Bangladesh_human_2004-02-09         0.09%    passed     99.98%
+  67  MK673570_NiV_Bangladesh_human_2011-02-11         0.13%    passed     99.26%
+  68  MK673575_NiV_Bangladesh_human_2011-02-10         0.08%    passed     99.18%
+  69  MK673585_NiV_Bangladesh_human_2015-03-18         0.04%    passed     98.63%
+  70  MK673586_NiV_Bangladesh_human_2015-03-21         0.94%    passed     98.65%
+  71  MK673592_NiV_Bangladesh_human_2014-01-20         0.10%    passed     98.59%
+  72  MK673578_NiV_Bangladesh_human_2011-03-08         0.13%    passed     99.73%
+  73  JN808857_NiV_Bangladesh_human_2008               0.00%    passed     98.66%
+  74  JN808863_NiV_Bangladesh_human_2008               0.00%    passed     98.66%
+  75  MK673582_NiV_Bangladesh_human_2012-04-05         0.08%    passed     99.01%
+  76  MK673583_NiV_Bangladesh_human_2013-01-22         0.30%    passed     98.99%
+  77  MK673576_NiV_Bangladesh_human_2011-01-01         0.08%    passed     99.13%
+  78  FJ513078_NiV_India_human_2007                    0.00%    passed     99.97%
+  79  MK673591_NiV_Bangladesh_human_2014-02-04         0.52%    passed     99.31%
+  80  MK673579_NiV_Bangladesh_human_2012-01-20         0.16%    passed     98.67%
+  81  MK673580_NiV_Bangladesh_human_2012-01-20         1.45%    passed     97.95%
+  82  MK673581_NiV_Bangladesh_human_2012-01-21         0.09%    passed     98.55%
+****  TOTAL                                            0.19%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: SEQX011_NiV_CountryX_human_2024-02-24 is identical to SEQX015_NiV_CountryX_human_2024-03-04 but kept for subsequent analysis
+NOTE: MK673561_NiV_Malaysia_pig_1999 is identical to MK673560_NiV_Malaysia_pig_1999-03-26 but kept for subsequent analysis
+NOTE: JN808863_NiV_Bangladesh_human_2008 is identical to JN808857_NiV_Bangladesh_human_2008 but kept for subsequent analysis
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: SEQX017_NiV_CountryX_human_2024-03-22 (identical to SEQX015_NiV_CountryX_human_2024-03-04) is ignored but added at the end
+NOTE: SEQX013_NiV_CountryX_human_2024-03-01 (identical to SEQX015_NiV_CountryX_human_2024-03-04) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to NIV_aligned.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.010 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 216610)...
+
+NOTE: 6 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -48081.157
+2. Current log-likelihood: -46269.880
+3. Current log-likelihood: -46268.473
+Optimal log-likelihood: -46268.473
+Rate parameters:  A-C: 1.00000  A-G: 9.33043  A-T: 1.00000  C-G: 1.00000  C-T: 9.33043  G-T: 1.00000
+Base frequencies:  A: 0.336  C: 0.184  G: 0.201  T: 0.279
+Parameters optimization took 3 rounds (0.090 sec)
+Computing ML distances based on estimated model parameters... 0.060 sec
+Computing BIONJ tree...
+0.049 seconds
+Log-likelihood of BIONJ tree: -46374.289
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.219 second
+Computing log-likelihood of 98 initial trees ... 1.075 seconds
+Current best score: -46268.457
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -46268.456
+BETTER TREE FOUND at iteration 7: -46268.456
+Iteration 10 / LogL: -46268.471 / Time: 0h:0m:3s
+Iteration 20 / LogL: -46268.471 / Time: 0h:0m:4s
+Finish initializing candidate tree set (20)
+Current best tree score: -46268.456 / CPU time: 4.204
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+BETTER TREE FOUND at iteration 21: -46268.456
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -46268.438
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -46268.423
+BETTER TREE FOUND at iteration 28: -46268.422
+BETTER TREE FOUND at iteration 30: -46268.416
+Iteration 30 / LogL: -46268.416 / Time: 0h:0m:6s (0h:0m:21s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 34: -46268.405
+BETTER TREE FOUND at iteration 35: -46268.396
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 37: -46268.384
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -46268.367
+Iteration 40 / LogL: -46268.401 / Time: 0h:0m:8s (0h:0m:19s left)
+Iteration 50 / LogL: -46268.378 / Time: 0h:0m:9s (0h:0m:16s left)
+Log-likelihood cutoff on original alignment: -46313.106
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 52: -46268.335
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 54: -46268.321
+Iteration 60 / LogL: -47640.673 / Time: 0h:0m:10s (0h:0m:17s left)
+Iteration 70 / LogL: -46268.338 / Time: 0h:0m:12s (0h:0m:14s left)
+Iteration 80 / LogL: -46268.324 / Time: 0h:0m:13s (0h:0m:12s left)
+Iteration 90 / LogL: -46268.350 / Time: 0h:0m:14s (0h:0m:10s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -46268.289
+Iteration 100 / LogL: -46268.329 / Time: 0h:0m:16s (0h:0m:8s left)
+Log-likelihood cutoff on original alignment: -46313.710
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.991
+BETTER TREE FOUND at iteration 102: -46268.281
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 108: -46268.268
+Iteration 110 / LogL: -46268.340 / Time: 0h:0m:17s (0h:0m:16s left)
+Iteration 120 / LogL: -46295.190 / Time: 0h:0m:19s (0h:0m:14s left)
+Iteration 130 / LogL: -46268.286 / Time: 0h:0m:20s (0h:0m:12s left)
+Iteration 140 / LogL: -46268.310 / Time: 0h:0m:21s (0h:0m:10s left)
+Iteration 150 / LogL: -46268.280 / Time: 0h:0m:23s (0h:0m:9s left)
+Log-likelihood cutoff on original alignment: -46313.710
+Iteration 160 / LogL: -46268.275 / Time: 0h:0m:24s (0h:0m:7s left)
+Iteration 170 / LogL: -47640.598 / Time: 0h:0m:26s (0h:0m:5s left)
+BETTER TREE FOUND at iteration 179: -46268.260
+Iteration 180 / LogL: -46268.277 / Time: 0h:0m:27s (0h:0m:15s left)
+Iteration 190 / LogL: -46268.299 / Time: 0h:0m:29s (0h:0m:13s left)
+Iteration 200 / LogL: -46268.286 / Time: 0h:0m:30s (0h:0m:12s left)
+Log-likelihood cutoff on original alignment: -46313.390
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+Iteration 210 / LogL: -46268.295 / Time: 0h:0m:31s (0h:0m:13s left)
+Iteration 220 / LogL: -46268.278 / Time: 0h:0m:33s (0h:0m:12s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 228: -46268.250
+Iteration 230 / LogL: -46295.183 / Time: 0h:0m:34s (0h:0m:14s left)
+Iteration 240 / LogL: -46268.258 / Time: 0h:0m:36s (0h:0m:13s left)
+Iteration 250 / LogL: -46268.279 / Time: 0h:0m:37s (0h:0m:11s left)
+Log-likelihood cutoff on original alignment: -46313.949
+Iteration 260 / LogL: -46268.269 / Time: 0h:0m:39s (0h:0m:10s left)
+Iteration 270 / LogL: -46268.258 / Time: 0h:0m:40s (0h:0m:8s left)
+Iteration 280 / LogL: -46268.282 / Time: 0h:0m:41s (0h:0m:7s left)
+Iteration 290 / LogL: -46268.304 / Time: 0h:0m:43s (0h:0m:5s left)
+Iteration 300 / LogL: -46268.304 / Time: 0h:0m:44s (0h:0m:4s left)
+Log-likelihood cutoff on original alignment: -46314.575
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.993
+Iteration 310 / LogL: -46268.273 / Time: 0h:0m:46s (0h:0m:13s left)
+Iteration 320 / LogL: -46268.269 / Time: 0h:0m:47s (0h:0m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 324: -46268.235
+Iteration 330 / LogL: -46268.277 / Time: 0h:0m:49s (0h:0m:13s left)
+Iteration 340 / LogL: -46268.291 / Time: 0h:0m:50s (0h:0m:12s left)
+Iteration 350 / LogL: -46268.274 / Time: 0h:0m:51s (0h:0m:10s left)
+Log-likelihood cutoff on original alignment: -46314.575
+Iteration 360 / LogL: -46268.317 / Time: 0h:0m:53s (0h:0m:9s left)
+Iteration 370 / LogL: -46268.238 / Time: 0h:0m:54s (0h:0m:7s left)
+Iteration 380 / LogL: -46268.291 / Time: 0h:0m:55s (0h:0m:6s left)
+Iteration 390 / LogL: -46268.260 / Time: 0h:0m:57s (0h:0m:5s left)
+BETTER TREE FOUND at iteration 398: -46268.235
+Iteration 400 / LogL: -46268.277 / Time: 0h:0m:58s (0h:0m:14s left)
+Log-likelihood cutoff on original alignment: -46315.570
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.993
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 408: -46268.220
+Iteration 410 / LogL: -46268.246 / Time: 0h:1m:0s (0h:0m:14s left)
+Iteration 420 / LogL: -46268.223 / Time: 0h:1m:1s (0h:0m:12s left)
+Iteration 430 / LogL: -46268.263 / Time: 0h:1m:3s (0h:0m:11s left)
+Iteration 440 / LogL: -46268.243 / Time: 0h:1m:4s (0h:0m:9s left)
+Iteration 450 / LogL: -46268.299 / Time: 0h:1m:6s (0h:0m:8s left)
+Log-likelihood cutoff on original alignment: -46315.903
+UPDATE BEST LOG-LIKELIHOOD: -46268.220
+Iteration 460 / LogL: -46268.260 / Time: 0h:1m:7s (0h:0m:7s left)
+Iteration 470 / LogL: -46268.237 / Time: 0h:1m:9s (0h:0m:5s left)
+Iteration 480 / LogL: -46268.288 / Time: 0h:1m:10s (0h:0m:4s left)
+Iteration 490 / LogL: -46268.245 / Time: 0h:1m:12s (0h:0m:2s left)
+Iteration 500 / LogL: -46295.151 / Time: 0h:1m:13s (0h:0m:1s left)
+Log-likelihood cutoff on original alignment: -46315.903
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.991
+BETTER TREE FOUND at iteration 503: -46268.216
+Iteration 510 / LogL: -46268.245 / Time: 0h:1m:15s (0h:0m:13s left)
+Iteration 520 / LogL: -46338.177 / Time: 0h:1m:16s (0h:0m:12s left)
+Iteration 530 / LogL: -46349.002 / Time: 0h:1m:18s (0h:0m:10s left)
+BETTER TREE FOUND at iteration 533: -46268.214
+Iteration 540 / LogL: -46268.227 / Time: 0h:1m:19s (0h:0m:13s left)
+Iteration 550 / LogL: -46268.243 / Time: 0h:1m:21s (0h:0m:12s left)
+Log-likelihood cutoff on original alignment: -46315.903
+Iteration 560 / LogL: -46268.233 / Time: 0h:1m:22s (0h:0m:10s left)
+Iteration 570 / LogL: -46268.250 / Time: 0h:1m:24s (0h:0m:9s left)
+Iteration 580 / LogL: -46268.223 / Time: 0h:1m:25s (0h:0m:7s left)
+Iteration 590 / LogL: -46268.250 / Time: 0h:1m:27s (0h:0m:6s left)
+BETTER TREE FOUND at iteration 597: -46268.207
+Iteration 600 / LogL: -46338.174 / Time: 0h:1m:28s (0h:0m:14s left)
+Log-likelihood cutoff on original alignment: -46315.913
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+Iteration 610 / LogL: -46268.258 / Time: 0h:1m:30s (0h:0m:13s left)
+Iteration 620 / LogL: -46274.408 / Time: 0h:1m:31s (0h:0m:11s left)
+Iteration 630 / LogL: -46268.234 / Time: 0h:1m:33s (0h:0m:10s left)
+Iteration 640 / LogL: -46943.330 / Time: 0h:1m:34s (0h:0m:8s left)
+Iteration 650 / LogL: -46268.249 / Time: 0h:1m:36s (0h:0m:7s left)
+Log-likelihood cutoff on original alignment: -46316.018
+Iteration 660 / LogL: -46268.228 / Time: 0h:1m:37s (0h:0m:5s left)
+Iteration 670 / LogL: -46268.262 / Time: 0h:1m:39s (0h:0m:4s left)
+Iteration 680 / LogL: -46268.210 / Time: 0h:1m:40s (0h:0m:2s left)
+Iteration 690 / LogL: -46268.242 / Time: 0h:1m:42s (0h:0m:1s left)
+TREE SEARCH COMPLETED AFTER 698 ITERATIONS / Time: 0h:1m:43s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -46268.207
+Optimal log-likelihood: -46268.207
+Rate parameters:  A-C: 1.00000  A-G: 9.33043  A-T: 1.00000  C-G: 1.00000  C-T: 9.33043  G-T: 1.00000
+Base frequencies:  A: 0.336  C: 0.184  G: 0.201  T: 0.279
+Parameters optimization took 1 rounds (0.023 sec)
+BEST SCORE FOUND : -46268.207
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+5.640 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file NIV_aligned.fasta.splits.nex
+Total tree length: 0.195
+
+Total number of iterations: 698
+CPU time used for tree search: 100.816 sec (0h:1m:40s)
+Wall-clock time used for tree search: 102.692 sec (0h:1m:42s)
+Total CPU time used: 106.936 sec (0h:1m:46s)
+Total wall-clock time used: 109.164 sec (0h:1m:49s)
+
+Computing bootstrap consensus tree...
+Reading input file NIV_aligned.fasta.splits.nex...
+80 taxa and 627 splits.
+Consensus tree written to NIV_aligned.fasta.contree
+Reading input trees file NIV_aligned.fasta.contree
+Log-likelihood of consensus tree: -46268.456
+
+Analysis results written to: 
+  IQ-TREE report:                NIV_aligned.fasta.iqtree
+  Maximum-likelihood tree:       NIV_aligned.fasta.treefile
+  Likelihood distances:          NIV_aligned.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          NIV_aligned.fasta.splits.nex
+  Consensus tree:                NIV_aligned.fasta.contree
+  Screen log file:               NIV_aligned.fasta.log
+
+Date and Time: Wed Oct 23 15:16:59 2024

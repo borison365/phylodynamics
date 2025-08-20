@@ -1,0 +1,184 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=82;
+	taxlabels
+	AJ564621_NiV_Malaysia_pig_1999
+	AJ564622_NiV_Malaysia_pig_1999
+	AJ564623_NiV_Malaysia_pig_1999
+	AJ627196_NiV_Malaysia_pig_1999
+	AY029767_NiV_Malaysia_human_1999
+	AY029768_NiV_Malaysia_human_1999
+	AY988601_NiV_Bangladesh_human_2004
+	FJ513078_NiV_India_human_2007
+	JN808857_NiV_Bangladesh_human_2008
+	JN808863_NiV_Bangladesh_human_2008
+	MH396625_NiV_India_human_2018-05-17
+	MH523640_NiV_India_human_2018-05-17
+	MH523641_NiV_India_human_2018-05-21
+	MH523642_NiV_India_human_2018-05-17
+	MK575060_NiV_Bangladesh_flying_fox_2013-04-11
+	MK575061_NiV_Bangladesh_flying_fox_2013-04-11
+	MK575062_NiV_Bangladesh_flying_fox_2013-04-11
+	MK575063_NiV_Bangladesh_flying_fox_2013-04-11
+	MK575064_NiV_Bangladesh_flying_fox_2013-04-11
+	MK575065_NiV_Bangladesh_flying_fox_2013-04-11
+	MK575066_NiV_Bangladesh_flying_fox_2013-04-11
+	MK575067_NiV_Bangladesh_flying_fox_2013-04-11
+	MK575068_NiV_Bangladesh_flying_fox_2013-04-11
+	MK575069_NiV_Bangladesh_flying_fox_2013-04-11
+	MK575070_NiV_Bangladesh_flying_fox_2013-01-06
+	MK673558_NiV_Malaysia_pig_1999-03-25
+	MK673559_NiV_Malaysia_pig_1999-03-25
+	MK673560_NiV_Malaysia_pig_1999-03-26
+	MK673561_NiV_Malaysia_pig_1999
+	MK673562_NiV_Malaysia_human_1999
+	MK673563_NiV_Malaysia_dog_1999-04-03
+	MK673564_NiV_Bangladesh_human_2004-01-22
+	MK673565_NiV_Bangladesh_human_2004-02-09
+	MK673566_NiV_Bangladesh_human_2004-03-29
+	MK673567_NiV_Bangladesh_human_2004-04-19
+	MK673568_NiV_Bangladesh_human_2008-02-28
+	MK673570_NiV_Bangladesh_human_2011-02-11
+	MK673571_NiV_Bangladesh_human_2011-02-01
+	MK673573_NiV_Bangladesh_human_2011-02-02
+	MK673574_NiV_Bangladesh_human_2011-02-03
+	MK673575_NiV_Bangladesh_human_2011-02-10
+	MK673576_NiV_Bangladesh_human_2011-01-01
+	MK673577_NiV_Bangladesh_human_2011-02-02
+	MK673578_NiV_Bangladesh_human_2011-03-08
+	MK673579_NiV_Bangladesh_human_2012-01-20
+	MK673580_NiV_Bangladesh_human_2012-01-20
+	MK673581_NiV_Bangladesh_human_2012-01-21
+	MK673582_NiV_Bangladesh_human_2012-04-05
+	MK673583_NiV_Bangladesh_human_2013-01-22
+	MK673584_NiV_Bangladesh_human_2015-01-05
+	MK673585_NiV_Bangladesh_human_2015-03-18
+	MK673586_NiV_Bangladesh_human_2015-03-21
+	MK673587_NiV_Bangladesh_human_2015-01-19
+	MK673589_NiV_Bangladesh_human_2014-02-06
+	MK673590_NiV_Bangladesh_human_2014-02-07
+	MK673591_NiV_Bangladesh_human_2014-02-04
+	MK673592_NiV_Bangladesh_human_2014-01-20
+	MK801755_NiV_Cambodia_flying_fox_2003
+	MN549409_NiV_India_flying_fox_2019-06-10
+	MW535746_NiV_Thailand_flying_fox_2017-05-21
+	OR820506_NiV_India_human_2023-08-29
+	OR820508_NiV_India_human_2023-09-11
+	SEQX001_NiV_CountryX_human_2023-12-28
+	SEQX002_NiV_CountryX_human_2024-01-10
+	SEQX003_NiV_CountryX_human_2024-01-29
+	SEQX004_NiV_CountryX_human_2024-02-02
+	SEQX005_NiV_CountryX_human_2024-02-22
+	SEQX006_NiV_CountryX_human_2024-02-09
+	SEQX007_NiV_CountryX_human_2024-02-06
+	SEQX008_NiV_CountryX_human_2024-03-02
+	SEQX009_NiV_CountryX_human_2024-02-29
+	SEQX010_NiV_CountryX_human_2024-02-23
+	SEQX011_NiV_CountryX_human_2024-02-24
+	SEQX012_NiV_CountryX_human_2024-03-11
+	SEQX013_NiV_CountryX_human_2024-03-01
+	SEQX014_NiV_CountryX_human_2024-03-02
+	SEQX015_NiV_CountryX_human_2024-03-04
+	SEQX016_NiV_CountryX_human_2024-03-03
+	SEQX017_NiV_CountryX_human_2024-03-22
+	SEQX018_NiV_CountryX_human_2024-03-20
+	SEQX019_NiV_CountryX_human_2024-04-03
+	SEQX020_NiV_CountryX_human_2024-04-13
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (SEQX008_NiV_CountryX_human_2024-03-02:5.5E-5,SEQX016_NiV_CountryX_human_2024-03-03:3.84E-4,(SEQX009_NiV_CountryX_human_2024-02-29:2.19E-4,((SEQX019_NiV_CountryX_human_2024-04-03:2.74E-4,(SEQX020_NiV_CountryX_human_2024-04-13:3.84E-4,(((SEQX002_NiV_CountryX_human_2024-01-10:3.0E-6,(SEQX003_NiV_CountryX_human_2024-01-29:3.0E-6,SEQX010_NiV_CountryX_human_2024-02-23:5.5E-5)[&label=100]:5.5E-5)[&label=97]:1.1E-4,SEQX001_NiV_CountryX_human_2023-12-28:5.5E-5)[&label=94]:5.5E-5,(SEQX012_NiV_CountryX_human_2024-03-11:1.1E-4,(((SEQX015_NiV_CountryX_human_2024-03-04:0.0,SEQX017_NiV_CountryX_human_2024-03-22:0.0):0.0,SEQX013_NiV_CountryX_human_2024-03-01:0.0):3.0E-6,SEQX011_NiV_CountryX_human_2024-02-24:3.0E-6)[&label=98]:1.64E-4)[&label=92]:5.5E-5)[&label=94]:1.1E-4)[&label=98]:1.64E-4)[&label=76]:3.0E-6,((((SEQX018_NiV_CountryX_human_2024-03-20:2.19E-4,SEQX006_NiV_CountryX_human_2024-02-09:5.5E-5)[&label=100]:3.29E-4,(SEQX004_NiV_CountryX_human_2024-02-02:1.1E-4,(SEQX014_NiV_CountryX_human_2024-03-02:5.5E-5,SEQX005_NiV_CountryX_human_2024-02-22:3.0E-6)[&label=100]:2.19E-4)[&label=81]:3.0E-6)[&label=97]:1.1E-4,(((((((MK673558_NiV_Malaysia_pig_1999-03-25:1.1E-4,(MK673559_NiV_Malaysia_pig_1999-03-25:1.64E-4,((MK673560_NiV_Malaysia_pig_1999-03-26:3.0E-6,MK673561_NiV_Malaysia_pig_1999:3.0E-6)[&label=99]:5.5E-5,MK673563_NiV_Malaysia_dog_1999-04-03:3.0E-6)[&label=98]:3.0E-6)[&label=98]:5.5E-5)[&label=66]:3.0E-6,(AJ564622_NiV_Malaysia_pig_1999:5.5E-5,AY029768_NiV_Malaysia_human_1999:1.1E-4)[&label=47]:3.0E-6)[&label=73]:3.0E-6,((AJ564621_NiV_Malaysia_pig_1999:5.5E-5,AJ564623_NiV_Malaysia_pig_1999:5.5E-5)[&label=93]:5.5E-5,AY029767_NiV_Malaysia_human_1999:5.5E-5)[&label=92]:5.3E-5)[&label=94]:2.86E-4,MK673562_NiV_Malaysia_human_1999:2.63E-4)[&label=99]:5.38E-4,AJ627196_NiV_Malaysia_pig_1999:0.001782)[&label=100]:0.010035,MK801755_NiV_Cambodia_flying_fox_2003:0.012948)[&label=87]:2.0E-6,((((OR820506_NiV_India_human_2023-08-29:1.64E-4,OR820508_NiV_India_human_2023-09-11:0.001588)[&label=100]:0.002284,MN549409_NiV_India_flying_fox_2019-06-10:0.001077)[&label=100]:0.001198,(((MH523640_NiV_India_human_2018-05-17:5.5E-5,MH396625_NiV_India_human_2018-05-17:5.5E-5)[&label=85]:3.0E-6,MH523641_NiV_India_human_2018-05-21:3.0E-6)[&label=91]:3.0E-6,MH523642_NiV_India_human_2018-05-17:5.5E-5)[&label=100]:0.001165)[&label=100]:0.010715,((MW535746_NiV_Thailand_flying_fox_2017-05-21:0.004249,((((((((MK673570_NiV_Bangladesh_human_2011-02-11:5.5E-5,MK673575_NiV_Bangladesh_human_2011-02-10:3.0E-6)[&label=100]:0.001645,((MK673585_NiV_Bangladesh_human_2015-03-18:3.0E-6,MK673586_NiV_Bangladesh_human_2015-03-21:1.1E-4)[&label=100]:8.22E-4,MK673592_NiV_Bangladesh_human_2014-01-20:9.32E-4)[&label=83]:3.0E-6)[&label=100]:7.67E-4,MK673583_NiV_Bangladesh_human_2013-01-22:0.001816)[&label=96]:1.64E-4,(JN808857_NiV_Bangladesh_human_2008:3.0E-6,JN808863_NiV_Bangladesh_human_2008:3.0E-6)[&label=100]:0.001371)[&label=97]:1.64E-4,(MK673578_NiV_Bangladesh_human_2011-03-08:0.00108,(MK673576_NiV_Bangladesh_human_2011-01-01:0.002016,FJ513078_NiV_India_human_2007:0.002051)[&label=100]:5.26E-4)[&label=99]:3.13E-4)[&label=100]:3.29E-4,MK673582_NiV_Bangladesh_human_2012-04-05:0.001592)[&label=100]:3.33E-4,MK673591_NiV_Bangladesh_human_2014-02-04:0.003143)[&label=100]:0.001073,((MK673579_NiV_Bangladesh_human_2012-01-20:3.0E-6,MK673580_NiV_Bangladesh_human_2012-01-20:1.11E-4)[&label=100]:5.15E-4,MK673581_NiV_Bangladesh_human_2012-01-21:6.37E-4)[&label=100]:0.00271)[&label=100]:0.001323)[&label=98]:3.21E-4,((((MK673564_NiV_Bangladesh_human_2004-01-22:3.0E-6,AY988601_NiV_Bangladesh_human_2004:2.19E-4)[&label=100]:9.33E-4,(MK673566_NiV_Bangladesh_human_2004-03-29:5.48E-4,MK673567_NiV_Bangladesh_human_2004-04-19:6.59E-4)[&label=100]:0.001209)[&label=83]:5.5E-5,(MK673568_NiV_Bangladesh_human_2008-02-28:0.001314,(((MK673571_NiV_Bangladesh_human_2011-02-01:1.1E-4,(MK673574_NiV_Bangladesh_human_2011-02-03:3.0E-6,MK673577_NiV_Bangladesh_human_2011-02-02:3.0E-6)[&label=99]:3.0E-6)[&label=100]:5.5E-5,MK673573_NiV_Bangladesh_human_2011-02-02:3.0E-6)[&label=100]:0.001376,(((MK673589_NiV_Bangladesh_human_2014-02-06:3.0E-6,MK673590_NiV_Bangladesh_human_2014-02-07:1.08E-4)[&label=100]:5.35E-4,(((((MK575060_NiV_Bangladesh_flying_fox_2013-04-11:8.22E-4,MK575064_NiV_Bangladesh_flying_fox_2013-04-11:3.0E-6)[&label=98]:5.5E-5,MK575061_NiV_Bangladesh_flying_fox_2013-04-11:5.5E-5)[&label=12]:3.0E-6,(MK575066_NiV_Bangladesh_flying_fox_2013-04-11:3.0E-6,(MK575067_NiV_Bangladesh_flying_fox_2013-04-11:1.1E-4,MK575069_NiV_Bangladesh_flying_fox_2013-04-11:1.1E-4)[&label=36]:3.0E-6)[&label=15]:3.0E-6)[&label=8]:3.0E-6,(MK575068_NiV_Bangladesh_flying_fox_2013-04-11:5.5E-5,(MK575062_NiV_Bangladesh_flying_fox_2013-04-11:5.5E-5,MK575065_NiV_Bangladesh_flying_fox_2013-04-11:1.64E-4)[&label=88]:5.5E-5)[&label=13]:3.0E-6)[&label=30]:3.0E-6,(MK575070_NiV_Bangladesh_flying_fox_2013-01-06:4.38E-4,MK575063_NiV_Bangladesh_flying_fox_2013-04-11:3.38E-4)[&label=83]:5.5E-5)[&label=100]:8.39E-4)[&label=100]:0.001264,(MK673584_NiV_Bangladesh_human_2015-01-05:7.68E-4,MK673587_NiV_Bangladesh_human_2015-01-19:9.38E-4)[&label=100]:0.001912)[&label=100]:6.7E-4)[&label=59]:5.5E-5)[&label=79]:5.8E-5)[&label=100]:0.001951,MK673565_NiV_Bangladesh_human_2004-02-09:0.001953)[&label=100]:7.86E-4)[&label=100]:0.00575)[&label=100]:0.069238)[&label=100]:0.020355)[&label=83]:3.0E-6,SEQX007_NiV_CountryX_human_2024-02-06:4.93E-4)[&label=95]:5.5E-5)[&label=65]:3.0E-6)[&label=98]:1.64E-4);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="label";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="label";
+	set appearance.branchColorGradient=true;
+	set appearance.branchLineWidth=3.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=false;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.006;
+	set tipLabels.colorAttribute="Names";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

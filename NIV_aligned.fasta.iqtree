@@ -1,0 +1,432 @@
+IQ-TREE 1.6.12 built Aug 15 2019
+
+Input file name: NIV_aligned.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 216610
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 82 sequences with 18252 nucleotide sites
+Number of constant sites: 15249 (= 83.547% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 15249 (= 83.547% of all sites)
+Number of parsimony informative sites: 2403
+Number of distinct site patterns: 987
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: HKY+F
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 9.3304
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 9.3304
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3363
+  pi(C) = 0.1841
+  pi(G) = 0.2007
+  pi(T) = 0.2789
+
+Rate matrix Q:
+
+  A   -0.8602   0.06782    0.6897    0.1027
+  C    0.1239    -1.156   0.07392    0.9585
+  G     1.156   0.06782    -1.326    0.1027
+  T    0.1239    0.6327   0.07392   -0.8305
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -46268.2075 (s.e. 355.6343)
+Unconstrained log-likelihood (without tree): -50439.5742
+Number of free parameters (#branches + #model parameters): 161
+Akaike information criterion (AIC) score: 92858.4149
+Corrected Akaike information criterion (AICc) score: 92861.2985
+Bayesian information criterion (BIC) score: 94116.1518
+
+Total tree length (sum of branch lengths): 0.1953
+Sum of internal branch lengths: 0.1461 (74.7786% of tree length)
+
+WARNING: 30 near-zero internal branches (<0.0001) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'SEQX008_NiV_CountryX_human_2024-03-02' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--SEQX008_NiV_CountryX_human_2024-03-02
+|
++--SEQX016_NiV_CountryX_human_2024-03-03
+|
+|  +--SEQX009_NiV_CountryX_human_2024-02-29
++--| (92.7/98)
+   |     +--SEQX019_NiV_CountryX_human_2024-04-03
+   |  +**| (0/76)
+   |  |  |  +--SEQX020_NiV_CountryX_human_2024-04-13
+   |  |  +--| (93.4/98)
+   |  |     |        +**SEQX002_NiV_CountryX_human_2024-01-10
+   |  |     |     +--| (90/97)
+   |  |     |     |  |  +**SEQX003_NiV_CountryX_human_2024-01-29
+   |  |     |     |  +**| (84.5/100)
+   |  |     |     |     +--SEQX010_NiV_CountryX_human_2024-02-23
+   |  |     |  +**| (75/94)
+   |  |     |  |  +**SEQX001_NiV_CountryX_human_2023-12-28
+   |  |     +--| (86.2/94)
+   |  |        |  +--SEQX012_NiV_CountryX_human_2024-03-11
+   |  |        +**| (76.3/92)
+   |  |           |  +**SEQX015_NiV_CountryX_human_2024-03-04
+   |  |           +--| (93.9/98)
+   |  |              +**SEQX011_NiV_CountryX_human_2024-02-24
+   +**| (0/65)
+      |           +--SEQX018_NiV_CountryX_human_2024-03-20
+      |        +--| (98.3/100)
+      |        |  +--SEQX006_NiV_CountryX_human_2024-02-09
+      |     +--| (89.3/97)
+      |     |  |  +--SEQX004_NiV_CountryX_human_2024-02-02
+      |     |  +**| (0/81)
+      |     |     |  +**SEQX014_NiV_CountryX_human_2024-03-02
+      |     |     +--| (98/100)
+      |     |        +**SEQX005_NiV_CountryX_human_2024-02-22
+      |  +**| (0/83)
+      |  |  |                              +--MK673558_NiV_Malaysia_pig_1999-03-25
+      |  |  |                           +**| (0/66)
+      |  |  |                           |  |  +--MK673559_NiV_Malaysia_pig_1999-03-25
+      |  |  |                           |  +--| (86.6/98)
+      |  |  |                           |     |     +**MK673560_NiV_Malaysia_pig_1999-03-26
+      |  |  |                           |     |  +--| (92/99)
+      |  |  |                           |     |  |  +**MK673561_NiV_Malaysia_pig_1999
+      |  |  |                           |     +**| (0/98)
+      |  |  |                           |        +**MK673563_NiV_Malaysia_dog_1999-04-03
+      |  |  |                        +**| (0/73)
+      |  |  |                        |  |  +--AJ564622_NiV_Malaysia_pig_1999
+      |  |  |                        |  +**| (0/47)
+      |  |  |                        |     +--AY029768_NiV_Malaysia_human_1999
+      |  |  |                     +--| (94.8/94)
+      |  |  |                     |  |     +--AJ564621_NiV_Malaysia_pig_1999
+      |  |  |                     |  |  +**| (79.4/93)
+      |  |  |                     |  |  |  +--AJ564623_NiV_Malaysia_pig_1999
+      |  |  |                     |  +**| (73.3/92)
+      |  |  |                     |     +--AY029767_NiV_Malaysia_human_1999
+      |  |  |                  +--| (97.5/99)
+      |  |  |                  |  +--MK673562_NiV_Malaysia_human_1999
+      |  |  |             +----| (100/100)
+      |  |  |             |    +--AJ627196_NiV_Malaysia_pig_1999
+      |  |  |          +**| (0/87)
+      |  |  |          |  +------MK801755_NiV_Cambodia_flying_fox_2003
+      |  |  +----------| (100/100)
+      |  |             |                                                  +--OR820506_NiV_India_human_2023-08-29
+      |  |             |                                               +--| (100/100)
+      |  |             |                                               |  +--OR820508_NiV_India_human_2023-09-11
+      |  |             |                                            +--| (99.9/100)
+      |  |             |                                            |  +--MN549409_NiV_India_flying_fox_2019-06-10
+      |  |             |                                      +-----| (100/100)
+      |  |             |                                      |     |        +--MH523640_NiV_India_human_2018-05-17
+      |  |             |                                      |     |     +**| (0/85)
+      |  |             |                                      |     |     |  +--MH396625_NiV_India_human_2018-05-17
+      |  |             |                                      |     |  +**| (0/91)
+      |  |             |                                      |     |  |  +**MH523641_NiV_India_human_2018-05-21
+      |  |             |                                      |     +--| (100/100)
+      |  |             |                                      |        +--MH523642_NiV_India_human_2018-05-17
+      |  |             +--------------------------------------| (100/100)
+      |  |                                                    |     +--MW535746_NiV_Thailand_flying_fox_2017-05-21
+      |  |                                                    |  +--| (94.2/98)
+      |  |                                                    |  |  |                       +--MK673570_NiV_Bangladesh_human_2011-02-11
+      |  |                                                    |  |  |                    +--| (100/100)
+      |  |                                                    |  |  |                    |  +**MK673575_NiV_Bangladesh_human_2011-02-10
+      |  |                                                    |  |  |                 +--| (100/100)
+      |  |                                                    |  |  |                 |  |     +**MK673585_NiV_Bangladesh_human_2015-03-18
+      |  |                                                    |  |  |                 |  |  +--| (100/100)
+      |  |                                                    |  |  |                 |  |  |  +--MK673586_NiV_Bangladesh_human_2015-03-21
+      |  |                                                    |  |  |                 |  +**| (0/83)
+      |  |                                                    |  |  |                 |     +--MK673592_NiV_Bangladesh_human_2014-01-20
+      |  |                                                    |  |  |              +--| (91.8/96)
+      |  |                                                    |  |  |              |  +--MK673583_NiV_Bangladesh_human_2013-01-22
+      |  |                                                    |  |  |           +--| (91.9/97)
+      |  |                                                    |  |  |           |  |  +**JN808857_NiV_Bangladesh_human_2008
+      |  |                                                    |  |  |           |  +--| (100/100)
+      |  |                                                    |  |  |           |     +**JN808863_NiV_Bangladesh_human_2008
+      |  |                                                    |  |  |        +--| (98.3/100)
+      |  |                                                    |  |  |        |  |  +--MK673578_NiV_Bangladesh_human_2011-03-08
+      |  |                                                    |  |  |        |  +--| (96.4/99)
+      |  |                                                    |  |  |        |     |  +--MK673576_NiV_Bangladesh_human_2011-01-01
+      |  |                                                    |  |  |        |     +--| (98.6/100)
+      |  |                                                    |  |  |        |        +--FJ513078_NiV_India_human_2007
+      |  |                                                    |  |  |     +--| (96.4/100)
+      |  |                                                    |  |  |     |  +--MK673582_NiV_Bangladesh_human_2012-04-05
+      |  |                                                    |  |  |  +--| (99.8/100)
+      |  |                                                    |  |  |  |  +--MK673591_NiV_Bangladesh_human_2014-02-04
+      |  |                                                    |  |  +--| (100/100)
+      |  |                                                    |  |     |     +**MK673579_NiV_Bangladesh_human_2012-01-20
+      |  |                                                    |  |     |  +--| (98.5/100)
+      |  |                                                    |  |     |  |  +--MK673580_NiV_Bangladesh_human_2012-01-20
+      |  |                                                    |  |     +--| (100/100)
+      |  |                                                    |  |        +--MK673581_NiV_Bangladesh_human_2012-01-21
+      |  |                                                    +--| (100/100)
+      |  |                                                       |           +**MK673564_NiV_Bangladesh_human_2004-01-22
+      |  |                                                       |        +--| (100/100)
+      |  |                                                       |        |  +--AY988601_NiV_Bangladesh_human_2004
+      |  |                                                       |     +**| (74.2/83)
+      |  |                                                       |     |  |  +--MK673566_NiV_Bangladesh_human_2004-03-29
+      |  |                                                       |     |  +--| (100/100)
+      |  |                                                       |     |     +--MK673567_NiV_Bangladesh_human_2004-04-19
+      |  |                                                       |  +--| (100/100)
+      |  |                                                       |  |  |  +--MK673568_NiV_Bangladesh_human_2008-02-28
+      |  |                                                       |  |  +--| (76/79)
+      |  |                                                       |  |     |        +--MK673571_NiV_Bangladesh_human_2011-02-01
+      |  |                                                       |  |     |     +**| (79.3/100)
+      |  |                                                       |  |     |     |  |  +**MK673574_NiV_Bangladesh_human_2011-02-03
+      |  |                                                       |  |     |     |  +**| (0/99)
+      |  |                                                       |  |     |     |     +**MK673577_NiV_Bangladesh_human_2011-02-02
+      |  |                                                       |  |     |  +--| (100/100)
+      |  |                                                       |  |     |  |  +**MK673573_NiV_Bangladesh_human_2011-02-02
+      |  |                                                       |  |     +**| (39/59)
+      |  |                                                       |  |        |        +**MK673589_NiV_Bangladesh_human_2014-02-06
+      |  |                                                       |  |        |     +--| (99/100)
+      |  |                                                       |  |        |     |  +--MK673590_NiV_Bangladesh_human_2014-02-07
+      |  |                                                       |  |        |  +--| (100/100)
+      |  |                                                       |  |        |  |  |     +--MK575060_NiV_Bangladesh_flying_fox_2013-04-11
+      |  |                                                       |  |        |  |  |  +**| (79.6/98)
+      |  |                                                       |  |        |  |  |  |  +**MK575064_NiV_Bangladesh_flying_fox_2013-04-11
+      |  |                                                       |  |        |  |  +--| (99.8/100)
+      |  |                                                       |  |        |  |     |  +--MK575061_NiV_Bangladesh_flying_fox_2013-04-11
+      |  |                                                       |  |        |  |     +**| (0/23)
+      |  |                                                       |  |        |  |        |     +**MK575066_NiV_Bangladesh_flying_fox_2013-04-11
+      |  |                                                       |  |        |  |        |  +**| (0/15)
+      |  |                                                       |  |        |  |        |  |  |  +--MK575067_NiV_Bangladesh_flying_fox_2013-04-11
+      |  |                                                       |  |        |  |        |  |  +**| (0/36)
+      |  |                                                       |  |        |  |        |  |     +--MK575069_NiV_Bangladesh_flying_fox_2013-04-11
+      |  |                                                       |  |        |  |        +**| (0/9)
+      |  |                                                       |  |        |  |           |     +--MK575068_NiV_Bangladesh_flying_fox_2013-04-11
+      |  |                                                       |  |        |  |           |  +**| (0/18)
+      |  |                                                       |  |        |  |           |  |  |  +--MK575070_NiV_Bangladesh_flying_fox_2013-01-06
+      |  |                                                       |  |        |  |           |  |  +--| (76/83)
+      |  |                                                       |  |        |  |           |  |     +--MK575063_NiV_Bangladesh_flying_fox_2013-04-11
+      |  |                                                       |  |        |  |           +**| (0/12)
+      |  |                                                       |  |        |  |              |  +**MK575062_NiV_Bangladesh_flying_fox_2013-04-11
+      |  |                                                       |  |        |  |              +**| (78.6/88)
+      |  |                                                       |  |        |  |                 +--MK575065_NiV_Bangladesh_flying_fox_2013-04-11
+      |  |                                                       |  |        +--| (99.3/100)
+      |  |                                                       |  |           |  +--MK673584_NiV_Bangladesh_human_2015-01-05
+      |  |                                                       |  |           +--| (100/100)
+      |  |                                                       |  |              +--MK673587_NiV_Bangladesh_human_2015-01-19
+      |  |                                                       +--| (99.9/100)
+      |  |                                                          +--MK673565_NiV_Bangladesh_human_2004-02-09
+      +**| (82.7/95)
+         +--SEQX007_NiV_CountryX_human_2024-02-06
+
+Tree in newick format:
+
+(SEQX008_NiV_CountryX_human_2024-03-02:0.0000554076,SEQX016_NiV_CountryX_human_2024-03-03:0.0003832593,(SEQX009_NiV_CountryX_human_2024-02-29:0.0002196610,((SEQX019_NiV_CountryX_human_2024-04-03:0.0002732168,(SEQX020_NiV_CountryX_human_2024-04-13:0.0003836666,(((SEQX002_NiV_CountryX_human_2024-01-10:0.0000021560,(SEQX003_NiV_CountryX_human_2024-01-29:0.0000024122,SEQX010_NiV_CountryX_human_2024-02-23:0.0000552070)84.5/100:0.0000546946)90/97:0.0001092289,SEQX001_NiV_CountryX_human_2023-12-28:0.0000544199)75/94:0.0000546050,(SEQX012_NiV_CountryX_human_2024-03-11:0.0001096946,(SEQX015_NiV_CountryX_human_2024-03-04:0.0000020729,SEQX011_NiV_CountryX_human_2024-02-24:0.0000022743)93.9/98:0.0001642369)76.3/92:0.0000546797)86.2/94:0.0001095008)93.4/98:0.0001642140)0/76:0.0000020017,((((SEQX018_NiV_CountryX_human_2024-03-20:0.0002192236,SEQX006_NiV_CountryX_human_2024-02-09:0.0000549222)98.3/100:0.0003286963,(SEQX004_NiV_CountryX_human_2024-02-02:0.0001091895,(SEQX014_NiV_CountryX_human_2024-03-02:0.0000547432,SEQX005_NiV_CountryX_human_2024-02-22:0.0000023632)98/100:0.0002188570)0/81:0.0000021299)89.3/97:0.0001091051,(((((((MK673558_NiV_Malaysia_pig_1999-03-25:0.0001095621,(MK673559_NiV_Malaysia_pig_1999-03-25:0.0001647604,((MK673560_NiV_Malaysia_pig_1999-03-26:0.0000029665,MK673561_NiV_Malaysia_pig_1999:0.0000023670)92/99:0.0000548255,MK673563_NiV_Malaysia_dog_1999-04-03:0.0000026309)0/98:0.0000025308)86.6/98:0.0000551746)0/66:0.0000026059,(AJ564622_NiV_Malaysia_pig_1999:0.0000547905,AY029768_NiV_Malaysia_human_1999:0.0001093760)0/47:0.0000020337)0/73:0.0000022557,((AJ564621_NiV_Malaysia_pig_1999:0.0000548825,AJ564623_NiV_Malaysia_pig_1999:0.0000548365)79.4/93:0.0000547867,AY029767_NiV_Malaysia_human_1999:0.0000548283)73.3/92:0.0000537901)94.8/94:0.0002869746,MK673562_NiV_Malaysia_human_1999:0.0002628167)97.5/99:0.0005389383,AJ627196_NiV_Malaysia_pig_1999:0.0017820797)100/100:0.0100344013,MK801755_NiV_Cambodia_flying_fox_2003:0.0129483556)0/87:0.0000021579,((((OR820506_NiV_India_human_2023-08-29:0.0001628800,OR820508_NiV_India_human_2023-09-11:0.0015881922)100/100:0.0022832819,MN549409_NiV_India_flying_fox_2019-06-10:0.0010774038)99.9/100:0.0011983790,(((MH523640_NiV_India_human_2018-05-17:0.0000547905,MH396625_NiV_India_human_2018-05-17:0.0000549306)0/85:0.0000022500,MH523641_NiV_India_human_2018-05-21:0.0000026810)0/91:0.0000021201,MH523642_NiV_India_human_2018-05-17:0.0000548140)100/100:0.0011657872)100/100:0.0107150234,((MW535746_NiV_Thailand_flying_fox_2017-05-21:0.0042498558,((((((((MK673570_NiV_Bangladesh_human_2011-02-11:0.0000557537,MK673575_NiV_Bangladesh_human_2011-02-10:0.0000021036)100/100:0.0016456120,((MK673585_NiV_Bangladesh_human_2015-03-18:0.0000024684,MK673586_NiV_Bangladesh_human_2015-03-21:0.0001108453)100/100:0.0008223052,MK673592_NiV_Bangladesh_human_2014-01-20:0.0009326319)0/83:0.0000021240)100/100:0.0007681043,MK673583_NiV_Bangladesh_human_2013-01-22:0.0018163461)91.8/96:0.0001636249,(JN808857_NiV_Bangladesh_human_2008:0.0000022942,JN808863_NiV_Bangladesh_human_2008:0.0000022961)100/100:0.0013711680)91.9/97:0.0001644107,(MK673578_NiV_Bangladesh_human_2011-03-08:0.0010805251,(MK673576_NiV_Bangladesh_human_2011-01-01:0.0020156897,FJ513078_NiV_India_human_2007:0.0020510299)98.6/100:0.0005265689)96.4/99:0.0003124837)98.3/100:0.0003288337,MK673582_NiV_Bangladesh_human_2012-04-05:0.0015924929)96.4/100:0.0003331015,MK673591_NiV_Bangladesh_human_2014-02-04:0.0031433473)99.8/100:0.0010732486,((MK673579_NiV_Bangladesh_human_2012-01-20:0.0000025307,MK673580_NiV_Bangladesh_human_2012-01-20:0.0001115058)98.5/100:0.0005152257,MK673581_NiV_Bangladesh_human_2012-01-21:0.0006372395)100/100:0.0027092641)100/100:0.0013232166)94.2/98:0.0003212235,((((MK673564_NiV_Bangladesh_human_2004-01-22:0.0000020216,AY988601_NiV_Bangladesh_human_2004:0.0002189998)100/100:0.0009330382,(MK673566_NiV_Bangladesh_human_2004-03-29:0.0005485885,MK673567_NiV_Bangladesh_human_2004-04-19:0.0006587659)100/100:0.0012089056)74.2/83:0.0000537651,(MK673568_NiV_Bangladesh_human_2008-02-28:0.0013142751,(((MK673571_NiV_Bangladesh_human_2011-02-01:0.0001096459,(MK673574_NiV_Bangladesh_human_2011-02-03:0.0000023446,MK673577_NiV_Bangladesh_human_2011-02-02:0.0000026800)0/99:0.0000023196)79.3/100:0.0000546793,MK673573_NiV_Bangladesh_human_2011-02-02:0.0000026773)100/100:0.0013758056,(((MK673589_NiV_Bangladesh_human_2014-02-06:0.0000011203,MK673590_NiV_Bangladesh_human_2014-02-07:0.0001099595)99/100:0.0005355813,((MK575060_NiV_Bangladesh_flying_fox_2013-04-11:0.0008231175,MK575064_NiV_Bangladesh_flying_fox_2013-04-11:0.0000026792)79.6/98:0.0000547569,(MK575061_NiV_Bangladesh_flying_fox_2013-04-11:0.0000547905,((MK575066_NiV_Bangladesh_flying_fox_2013-04-11:0.0000026810,(MK575067_NiV_Bangladesh_flying_fox_2013-04-11:0.0001094106,MK575069_NiV_Bangladesh_flying_fox_2013-04-11:0.0001095940)0/36:0.0000022579)0/15:0.0000020087,((MK575068_NiV_Bangladesh_flying_fox_2013-04-11:0.0000548195,(MK575070_NiV_Bangladesh_flying_fox_2013-01-06:0.0004390376,MK575063_NiV_Bangladesh_flying_fox_2013-04-11:0.0003378621)76/83:0.0000549049)0/18:0.0000026803,(MK575062_NiV_Bangladesh_flying_fox_2013-04-11:0.0000547739,MK575065_NiV_Bangladesh_flying_fox_2013-04-11:0.0001645877)78.6/88:0.0000547689)0/12:0.0000026781)0/9:0.0000021218)0/23:0.0000026803)99.8/100:0.0008390249)100/100:0.0012647094,(MK673584_NiV_Bangladesh_human_2015-01-05:0.0007685411,MK673587_NiV_Bangladesh_human_2015-01-19:0.0009377774)100/100:0.0019120627)99.3/100:0.0006702115)39/59:0.0000542939)76/79:0.0000576626)100/100:0.0019507182,MK673565_NiV_Bangladesh_human_2004-02-09:0.0019532901)99.9/100:0.0007850857)100/100:0.0057498771)100/100:0.0692384948)100/100:0.0203546540)0/83:0.0000021461,SEQX007_NiV_CountryX_human_2024-02-06:0.0004935900)82.7/95:0.0000547303)0/65:0.0000011556)92.7/98:0.0001642854);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000bootstrap trees
+Log-likelihood of consensus tree: -46268.456258
+Robinson-Foulds distance between ML tree and consensus tree: 8
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--SEQX008_NiV_CountryX_human_2024-03-02
+|
++--SEQX016_NiV_CountryX_human_2024-03-03
+|
+|  +--SEQX009_NiV_CountryX_human_2024-02-29
++--| (98)
+   |     +--SEQX019_NiV_CountryX_human_2024-04-03
+   |  +--| (76)
+   |  |  |  +--SEQX020_NiV_CountryX_human_2024-04-13
+   |  |  +--| (98)
+   |  |     |        +--SEQX002_NiV_CountryX_human_2024-01-10
+   |  |     |     +--| (97)
+   |  |     |     |  |  +--SEQX003_NiV_CountryX_human_2024-01-29
+   |  |     |     |  +--| (100)
+   |  |     |     |     +--SEQX010_NiV_CountryX_human_2024-02-23
+   |  |     |  +--| (94)
+   |  |     |  |  +--SEQX001_NiV_CountryX_human_2023-12-28
+   |  |     +--| (94)
+   |  |        |  +--SEQX012_NiV_CountryX_human_2024-03-11
+   |  |        +--| (92)
+   |  |           |        +**SEQX015_NiV_CountryX_human_2024-03-04
+   |  |           |     +**|
+   |  |           |     |  +**SEQX017_NiV_CountryX_human_2024-03-22
+   |  |           |  +--|
+   |  |           |  |  +**SEQX013_NiV_CountryX_human_2024-03-01
+   |  |           +--| (98)
+   |  |              +--SEQX011_NiV_CountryX_human_2024-02-24
+   +--| (65)
+      |           +--SEQX018_NiV_CountryX_human_2024-03-20
+      |        +--| (100)
+      |        |  +--SEQX006_NiV_CountryX_human_2024-02-09
+      |     +--| (97)
+      |     |  |  +--SEQX004_NiV_CountryX_human_2024-02-02
+      |     |  +--| (81)
+      |     |     |  +--SEQX014_NiV_CountryX_human_2024-03-02
+      |     |     +--| (100)
+      |     |        +--SEQX005_NiV_CountryX_human_2024-02-22
+      |  +--| (83)
+      |  |  |                              +--MK673558_NiV_Malaysia_pig_1999-03-25
+      |  |  |                           +--| (66)
+      |  |  |                           |  |  +--MK673559_NiV_Malaysia_pig_1999-03-25
+      |  |  |                           |  +--| (98)
+      |  |  |                           |     |     +--MK673560_NiV_Malaysia_pig_1999-03-26
+      |  |  |                           |     |  +--| (99)
+      |  |  |                           |     |  |  +--MK673561_NiV_Malaysia_pig_1999
+      |  |  |                           |     +--| (98)
+      |  |  |                           |        +--MK673563_NiV_Malaysia_dog_1999-04-03
+      |  |  |                        +--| (73)
+      |  |  |                        |  |  +--AJ564622_NiV_Malaysia_pig_1999
+      |  |  |                        |  +--| (47)
+      |  |  |                        |     +--AY029768_NiV_Malaysia_human_1999
+      |  |  |                     +--| (94)
+      |  |  |                     |  |     +--AJ564621_NiV_Malaysia_pig_1999
+      |  |  |                     |  |  +--| (93)
+      |  |  |                     |  |  |  +--AJ564623_NiV_Malaysia_pig_1999
+      |  |  |                     |  +--| (92)
+      |  |  |                     |     +--AY029767_NiV_Malaysia_human_1999
+      |  |  |                  +--| (99)
+      |  |  |                  |  +--MK673562_NiV_Malaysia_human_1999
+      |  |  |             +----| (100)
+      |  |  |             |    +--AJ627196_NiV_Malaysia_pig_1999
+      |  |  |          +--| (87)
+      |  |  |          |  +------MK801755_NiV_Cambodia_flying_fox_2003
+      |  |  +----------| (100)
+      |  |             |                                                  +--OR820506_NiV_India_human_2023-08-29
+      |  |             |                                               +--| (100)
+      |  |             |                                               |  +--OR820508_NiV_India_human_2023-09-11
+      |  |             |                                            +--| (100)
+      |  |             |                                            |  +--MN549409_NiV_India_flying_fox_2019-06-10
+      |  |             |                                      +-----| (100)
+      |  |             |                                      |     |        +--MH523640_NiV_India_human_2018-05-17
+      |  |             |                                      |     |     +--| (85)
+      |  |             |                                      |     |     |  +--MH396625_NiV_India_human_2018-05-17
+      |  |             |                                      |     |  +--| (91)
+      |  |             |                                      |     |  |  +--MH523641_NiV_India_human_2018-05-21
+      |  |             |                                      |     +--| (100)
+      |  |             |                                      |        +--MH523642_NiV_India_human_2018-05-17
+      |  |             +--------------------------------------| (100)
+      |  |                                                    |     +--MW535746_NiV_Thailand_flying_fox_2017-05-21
+      |  |                                                    |  +--| (98)
+      |  |                                                    |  |  |                       +--MK673570_NiV_Bangladesh_human_2011-02-11
+      |  |                                                    |  |  |                    +--| (100)
+      |  |                                                    |  |  |                    |  +--MK673575_NiV_Bangladesh_human_2011-02-10
+      |  |                                                    |  |  |                 +--| (100)
+      |  |                                                    |  |  |                 |  |     +--MK673585_NiV_Bangladesh_human_2015-03-18
+      |  |                                                    |  |  |                 |  |  +--| (100)
+      |  |                                                    |  |  |                 |  |  |  +--MK673586_NiV_Bangladesh_human_2015-03-21
+      |  |                                                    |  |  |                 |  +--| (83)
+      |  |                                                    |  |  |                 |     +--MK673592_NiV_Bangladesh_human_2014-01-20
+      |  |                                                    |  |  |              +--| (96)
+      |  |                                                    |  |  |              |  +--MK673583_NiV_Bangladesh_human_2013-01-22
+      |  |                                                    |  |  |           +--| (97)
+      |  |                                                    |  |  |           |  |  +--JN808857_NiV_Bangladesh_human_2008
+      |  |                                                    |  |  |           |  +--| (100)
+      |  |                                                    |  |  |           |     +--JN808863_NiV_Bangladesh_human_2008
+      |  |                                                    |  |  |        +--| (100)
+      |  |                                                    |  |  |        |  |  +--MK673578_NiV_Bangladesh_human_2011-03-08
+      |  |                                                    |  |  |        |  +--| (99)
+      |  |                                                    |  |  |        |     |  +--MK673576_NiV_Bangladesh_human_2011-01-01
+      |  |                                                    |  |  |        |     +--| (100)
+      |  |                                                    |  |  |        |        +--FJ513078_NiV_India_human_2007
+      |  |                                                    |  |  |     +--| (100)
+      |  |                                                    |  |  |     |  +--MK673582_NiV_Bangladesh_human_2012-04-05
+      |  |                                                    |  |  |  +--| (100)
+      |  |                                                    |  |  |  |  +--MK673591_NiV_Bangladesh_human_2014-02-04
+      |  |                                                    |  |  +--| (100)
+      |  |                                                    |  |     |     +--MK673579_NiV_Bangladesh_human_2012-01-20
+      |  |                                                    |  |     |  +--| (100)
+      |  |                                                    |  |     |  |  +--MK673580_NiV_Bangladesh_human_2012-01-20
+      |  |                                                    |  |     +--| (100)
+      |  |                                                    |  |        +--MK673581_NiV_Bangladesh_human_2012-01-21
+      |  |                                                    +--| (100)
+      |  |                                                       |           +--MK673564_NiV_Bangladesh_human_2004-01-22
+      |  |                                                       |        +--| (100)
+      |  |                                                       |        |  +--AY988601_NiV_Bangladesh_human_2004
+      |  |                                                       |     +--| (83)
+      |  |                                                       |     |  |  +--MK673566_NiV_Bangladesh_human_2004-03-29
+      |  |                                                       |     |  +--| (100)
+      |  |                                                       |     |     +--MK673567_NiV_Bangladesh_human_2004-04-19
+      |  |                                                       |  +--| (100)
+      |  |                                                       |  |  |  +--MK673568_NiV_Bangladesh_human_2008-02-28
+      |  |                                                       |  |  +--| (79)
+      |  |                                                       |  |     |        +--MK673571_NiV_Bangladesh_human_2011-02-01
+      |  |                                                       |  |     |     +--| (100)
+      |  |                                                       |  |     |     |  |  +--MK673574_NiV_Bangladesh_human_2011-02-03
+      |  |                                                       |  |     |     |  +--| (99)
+      |  |                                                       |  |     |     |     +--MK673577_NiV_Bangladesh_human_2011-02-02
+      |  |                                                       |  |     |  +--| (100)
+      |  |                                                       |  |     |  |  +--MK673573_NiV_Bangladesh_human_2011-02-02
+      |  |                                                       |  |     +--| (59)
+      |  |                                                       |  |        |        +--MK673589_NiV_Bangladesh_human_2014-02-06
+      |  |                                                       |  |        |     +--| (100)
+      |  |                                                       |  |        |     |  +--MK673590_NiV_Bangladesh_human_2014-02-07
+      |  |                                                       |  |        |  +--| (100)
+      |  |                                                       |  |        |  |  |              +--MK575060_NiV_Bangladesh_flying_fox_2013-04-11
+      |  |                                                       |  |        |  |  |           +--| (98)
+      |  |                                                       |  |        |  |  |           |  +--MK575064_NiV_Bangladesh_flying_fox_2013-04-11
+      |  |                                                       |  |        |  |  |        +--| (12)
+      |  |                                                       |  |        |  |  |        |  +--MK575061_NiV_Bangladesh_flying_fox_2013-04-11
+      |  |                                                       |  |        |  |  |     +--| (8)
+      |  |                                                       |  |        |  |  |     |  |  +--MK575066_NiV_Bangladesh_flying_fox_2013-04-11
+      |  |                                                       |  |        |  |  |     |  +--| (15)
+      |  |                                                       |  |        |  |  |     |     |  +--MK575067_NiV_Bangladesh_flying_fox_2013-04-11
+      |  |                                                       |  |        |  |  |     |     +--| (36)
+      |  |                                                       |  |        |  |  |     |        +--MK575069_NiV_Bangladesh_flying_fox_2013-04-11
+      |  |                                                       |  |        |  |  |  +--| (30)
+      |  |                                                       |  |        |  |  |  |  |  +--MK575068_NiV_Bangladesh_flying_fox_2013-04-11
+      |  |                                                       |  |        |  |  |  |  +--| (13)
+      |  |                                                       |  |        |  |  |  |     |  +--MK575062_NiV_Bangladesh_flying_fox_2013-04-11
+      |  |                                                       |  |        |  |  |  |     +--| (88)
+      |  |                                                       |  |        |  |  |  |        +--MK575065_NiV_Bangladesh_flying_fox_2013-04-11
+      |  |                                                       |  |        |  |  +--| (100)
+      |  |                                                       |  |        |  |     |  +--MK575070_NiV_Bangladesh_flying_fox_2013-01-06
+      |  |                                                       |  |        |  |     +--| (83)
+      |  |                                                       |  |        |  |        +--MK575063_NiV_Bangladesh_flying_fox_2013-04-11
+      |  |                                                       |  |        +--| (100)
+      |  |                                                       |  |           |  +--MK673584_NiV_Bangladesh_human_2015-01-05
+      |  |                                                       |  |           +--| (100)
+      |  |                                                       |  |              +--MK673587_NiV_Bangladesh_human_2015-01-19
+      |  |                                                       +--| (100)
+      |  |                                                          +--MK673565_NiV_Bangladesh_human_2004-02-09
+      +--| (95)
+         +--SEQX007_NiV_CountryX_human_2024-02-06
+
+
+Consensus tree in newick format: 
+
+(SEQX008_NiV_CountryX_human_2024-03-02:0.0000547905,SEQX016_NiV_CountryX_human_2024-03-03:0.0003836177,(SEQX009_NiV_CountryX_human_2024-02-29:0.0002191861,((SEQX019_NiV_CountryX_human_2024-04-03:0.0002739926,(SEQX020_NiV_CountryX_human_2024-04-13:0.0003836177,(((SEQX002_NiV_CountryX_human_2024-01-10:0.0000026810,(SEQX003_NiV_CountryX_human_2024-01-29:0.0000026810,SEQX010_NiV_CountryX_human_2024-02-23:0.0000547905)100:0.0000547905)97:0.0001095850,SEQX001_NiV_CountryX_human_2023-12-28:0.0000547905)94:0.0000547905,(SEQX012_NiV_CountryX_human_2024-03-11:0.0001095850,(((SEQX015_NiV_CountryX_human_2024-03-04:0.0000000000,SEQX017_NiV_CountryX_human_2024-03-22:0.0000000000):0.0000000000,SEQX013_NiV_CountryX_human_2024-03-01:0.0000000000):0.0000026810,SEQX011_NiV_CountryX_human_2024-02-24:0.0000026810)98:0.0001643836)92:0.0000547905)94:0.0001095850)98:0.0001643836)76:0.0000026810,((((SEQX018_NiV_CountryX_human_2024-03-20:0.0002191861,SEQX006_NiV_CountryX_human_2024-02-09:0.0000547905)100:0.0003288032,(SEQX004_NiV_CountryX_human_2024-02-02:0.0001095850,(SEQX014_NiV_CountryX_human_2024-03-02:0.0000547905,SEQX005_NiV_CountryX_human_2024-02-22:0.0000026810)100:0.0002191861)81:0.0000026810)97:0.0001095850,(((((((MK673558_NiV_Malaysia_pig_1999-03-25:0.0001095850,(MK673559_NiV_Malaysia_pig_1999-03-25:0.0001643836,((MK673560_NiV_Malaysia_pig_1999-03-26:0.0000026810,MK673561_NiV_Malaysia_pig_1999:0.0000026810)99:0.0000547905,MK673563_NiV_Malaysia_dog_1999-04-03:0.0000026810)98:0.0000026810)98:0.0000547905)66:0.0000026810,(AJ564622_NiV_Malaysia_pig_1999:0.0000547905,AY029768_NiV_Malaysia_human_1999:0.0001095850)47:0.0000026810)73:0.0000026810,((AJ564621_NiV_Malaysia_pig_1999:0.0000547905,AJ564623_NiV_Malaysia_pig_1999:0.0000547905)93:0.0000547905,AY029767_NiV_Malaysia_human_1999:0.0000547905)92:0.0000533746)94:0.0002864023,MK673562_NiV_Malaysia_human_1999:0.0002629456)99:0.0005381694,AJ627196_NiV_Malaysia_pig_1999:0.0017820186)100:0.0100350308,MK801755_NiV_Cambodia_flying_fox_2003:0.0129480320)87:0.0000023379,((((OR820506_NiV_India_human_2023-08-29:0.0001643836,OR820508_NiV_India_human_2023-09-11:0.0015881445)100:0.0022836455,MN549409_NiV_India_flying_fox_2019-06-10:0.0010772277)100:0.0011982402,(((MH523640_NiV_India_human_2018-05-17:0.0000547905,MH396625_NiV_India_human_2018-05-17:0.0000547901)85:0.0000026810,MH523641_NiV_India_human_2018-05-21:0.0000026810)91:0.0000026810,MH523642_NiV_India_human_2018-05-17:0.0000547905)100:0.0011651678)100:0.0107153173,((MW535746_NiV_Thailand_flying_fox_2017-05-21:0.0042494748,((((((((MK673570_NiV_Bangladesh_human_2011-02-11:0.0000547905,MK673575_NiV_Bangladesh_human_2011-02-10:0.0000026810)100:0.0016454592,((MK673585_NiV_Bangladesh_human_2015-03-18:0.0000026810,MK673586_NiV_Bangladesh_human_2015-03-21:0.0001095850)100:0.0008222783,MK673592_NiV_Bangladesh_human_2014-01-20:0.0009319836)83:0.0000026810)100:0.0007674317,MK673583_NiV_Bangladesh_human_2013-01-22:0.0018160953)96:0.0001639878,(JN808857_NiV_Bangladesh_human_2008:0.0000026810,JN808863_NiV_Bangladesh_human_2008:0.0000026810)100:0.0013709652)97:0.0001643836,(MK673578_NiV_Bangladesh_human_2011-03-08:0.0010799355,(MK673576_NiV_Bangladesh_human_2011-01-01:0.0020156263,FJ513078_NiV_India_human_2007:0.0020505999)100:0.0005257746)99:0.0003125238)100:0.0003288032,MK673582_NiV_Bangladesh_human_2012-04-05:0.0015924973)100:0.0003329494,MK673591_NiV_Bangladesh_human_2014-02-04:0.0031433601)100:0.0010733376,((MK673579_NiV_Bangladesh_human_2012-01-20:0.0000026810,MK673580_NiV_Bangladesh_human_2012-01-20:0.0001111618)100:0.0005151527,MK673581_NiV_Bangladesh_human_2012-01-21:0.0006365835)100:0.0027095689)100:0.0013231011)98:0.0003211772,((((MK673564_NiV_Bangladesh_human_2004-01-22:0.0000026810,AY988601_NiV_Bangladesh_human_2004:0.0002191861)100:0.0009333292,(MK673566_NiV_Bangladesh_human_2004-03-29:0.0005480854,MK673567_NiV_Bangladesh_human_2004-04-19:0.0006587672)100:0.0012090920)83:0.0000547905,(MK673568_NiV_Bangladesh_human_2008-02-28:0.0013144494,(((MK673571_NiV_Bangladesh_human_2011-02-01:0.0001095850,(MK673574_NiV_Bangladesh_human_2011-02-03:0.0000026810,MK673577_NiV_Bangladesh_human_2011-02-02:0.0000026810)99:0.0000026810)100:0.0000547905,MK673573_NiV_Bangladesh_human_2011-02-02:0.0000026810)100:0.0013758153,(((MK673589_NiV_Bangladesh_human_2014-02-06:0.0000026810,MK673590_NiV_Bangladesh_human_2014-02-07:0.0001084620)100:0.0005350076,(((((MK575060_NiV_Bangladesh_flying_fox_2013-04-11:0.0008222783,MK575064_NiV_Bangladesh_flying_fox_2013-04-11:0.0000026810)98:0.0000547905,MK575061_NiV_Bangladesh_flying_fox_2013-04-11:0.0000547905)12:0.0000026810,(MK575066_NiV_Bangladesh_flying_fox_2013-04-11:0.0000026810,(MK575067_NiV_Bangladesh_flying_fox_2013-04-11:0.0001095850,MK575069_NiV_Bangladesh_flying_fox_2013-04-11:0.0001095850)36:0.0000026810)15:0.0000026810)8:0.0000026810,(MK575068_NiV_Bangladesh_flying_fox_2013-04-11:0.0000547905,(MK575062_NiV_Bangladesh_flying_fox_2013-04-11:0.0000547905,MK575065_NiV_Bangladesh_flying_fox_2013-04-11:0.0001643836)88:0.0000547905)13:0.0000026810)30:0.0000026810,(MK575070_NiV_Bangladesh_flying_fox_2013-01-06:0.0004384363,MK575063_NiV_Bangladesh_flying_fox_2013-04-11:0.0003376256)83:0.0000547905)100:0.0008394867)100:0.0012636856,(MK673584_NiV_Bangladesh_human_2015-01-05:0.0007684863,MK673587_NiV_Bangladesh_human_2015-01-19:0.0009375450)100:0.0019118227)100:0.0006702128)59:0.0000547905)79:0.0000578404)100:0.0019505881,MK673565_NiV_Bangladesh_human_2004-02-09:0.0019534666)100:0.0007858130)100:0.0057500502)100:0.0692381207)100:0.0203550468)83:0.0000026810,SEQX007_NiV_CountryX_human_2024-02-06:0.0004932588)95:0.0000547905)65:0.0000026810)98:0.0001643836);
+
+TIME STAMP
+----------
+
+Date and time: Wed Oct 23 15:16:59 2024
+Total CPU time used: 106.936 seconds (0h:1m:46s)
+Total wall-clock time used: 109.5515471 seconds (0h:1m:49s)
+
